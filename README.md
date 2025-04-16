@@ -1,8 +1,7 @@
 
 This repository contains materials related with article "Change Detection in Sentinel-2 Images Using Deep Learning Ensembles" Ewa Kopec, Agata M. Wijata, Jakub Nalepa.
-The articule has been sent to Elsevier: Remote Sensing Applications: Society and Environment (currently in second revision). 
+The article has been sent to Elsevier: Remote Sensing Applications: Society and Environment (currently in second revision). 
 
-## Contents
 # Implementation of UCDNet and ensemble learning script 
 Fully Convolutional Neural Network model based on architecture proposed by K. S. Basavaraju - UCDNet (source https://ieeexplore.ieee.org/document/9740122). 
 
