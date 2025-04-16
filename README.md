@@ -1,13 +1,18 @@
+
+This repository contains materials related with article "Change Detection in Sentinel-2 Images Using Deep Learning Ensembles" Ewa Kopec, Agata M. Wijata, Jakub Nalepa.
+The articule has been sent to Elsevier: Remote Sensing Applications: Society and Environment (currently in second revision). 
+
+## Contents
 # Implementation of UCDNet and ensemble learning script 
-Fully Convolutional Neural Network model based on architecture proposed by K. S. Basavaraju - UCDNet (https://ieeexplore.ieee.org/document/9740122). 
+Fully Convolutional Neural Network model based on architecture proposed by K. S. Basavaraju - UCDNet (source https://ieeexplore.ieee.org/document/9740122). 
 
-Ensemble learning - soft weighted voting based on results obtain from FC-EF, FC-Siam-conc, FC-Siam-diff taken from [https://arxiv.org/pdf/1810.08462] and UCDNet. 
-
+Ensemble learning - soft weighted voting based on results obtain from FC-EF, FC-Siam-conc, FC-Siam-diff and implemented UCDNet. 
 
 Jupyter notebook and other models come from: 
 https://github.com/rcdaudt/fully_convolutional_change_detection
+[https://arxiv.org/pdf/1810.08462]
 
-Models  such FC-EF, FC-Siam-conc and FC-Siam-diff can be downloaded and then train, test using fully-convolutional-change-detection.ipynb
+Models  such FC-EF, FC-Siam-conc and FC-Siam-diff can be downloaded and then train, test using **fully-convolutional-change-detection.ipynb**
 Pretrained models for 50 epochs available here in catalogue 'Trained models'
 
 # Brief guide 
@@ -54,3 +59,22 @@ elif TYPE == 3:
      net, net_name = UCDNet(13, 2), 'UCDNet'
 #     net, net_name = FresUNet(2*13, 2), 'FresUNet'
 ```
+# Requiremnets
+- Colab Free or Pro version
+
+# Authors
+
+- Ewa Kopec
+- Agata M. Wijata
+- Jakub Nalepa
+
+# License 
+This repository is licensed under the MIT License. See LICENSE for more information.
+
+# Contact
+If you have any questions, please contact us at 
+- ewakope946@student.polsl.pl
+- Agata.Wijata@polsl.pl
+- Jakub.Nalepa@polsl.pl
+
+
